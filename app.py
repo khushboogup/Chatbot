@@ -32,7 +32,7 @@ if user_input:
 
     # Get response from model
     completion = client.chat.completions.create(
-        model="openai/gpt-oss-20b:novita",  # Model from Hugging Face
+        model="openai/gpt-oss-120b:novita",  # Model from Hugging Face
         messages=st.session_state.messages
     )
 
